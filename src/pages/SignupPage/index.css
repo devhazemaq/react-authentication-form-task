@@ -1,14 +1,16 @@
 .signup__contain {
   height: 100vh;
   width: 100%;
-
 }
-
-
-
 
 /* Start of Part Sign Up Show */
 
+.signup__contain .signup__show {
+  width: 642px;
+  height: 1024px;
+  opacity: 0.8999999761581421px;
+  background: #1565D8;
 
+}
 
 /* End of Part Sign Up Show */

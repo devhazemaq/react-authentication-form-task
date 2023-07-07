@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Quote from '../../components/Quote';
-
+import './index.css'
 
 
 export default class SignupPage extends Component {
@@ -19,6 +19,7 @@ export default class SignupPage extends Component {
               {/* هاد عشان ألم فيه اللإقتباس والفكتور  */}
               
               <Quote quoteColor />
+              
 
             </div>
           </div>

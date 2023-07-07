@@ -19,11 +19,11 @@
 }
 
 .quote__color__blue {
-  color: #00DAF7;
+  color: var(--color6);
 } 
 
 .quote__color__gray {
-  color: #BABABA;
+  color: var(--color2);
 } 
 
 
@@ -39,6 +39,14 @@
   
 }
 
+.text__color__white {
+  color: var(--color4);
+}
+
+.text__color__haz {
+  color: var(--color3);
+}
+
 .quote__contain .quote__saying {
   font-family: Inter;
   font-size: 20px;
@@ -47,5 +55,10 @@
   letter-spacing: 0em;
   text-align: left;
 }
+.saying__color__white {
+  color: var(--color4);
+}
 
-
+.saying__color__haz  {
+  color: var(--color3);
+}
