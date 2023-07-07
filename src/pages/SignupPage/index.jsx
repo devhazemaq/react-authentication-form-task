@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Quote from '../../components/Quote';
 
 
 
@@ -17,6 +18,7 @@ export default class SignupPage extends Component {
             <div className="signup__show__info"> 
               {/* هاد عشان ألم فيه اللإقتباس والفكتور  */}
               
+              <Quote quoteColor />
 
             </div>
           </div>
