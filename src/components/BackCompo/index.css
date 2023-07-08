@@ -1,0 +1,21 @@
+.backcompo__span {
+  display: block;
+  position: relative;
+  color: var(--color2);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 27px;
+}
+
+.backcompo__span::before {
+  content: " ";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-image: url(../../../public/assets/images/Vectop-Arrow-Back.svg);
+}

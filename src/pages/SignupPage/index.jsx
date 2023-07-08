@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Quote from '../../components/Quote';
 import './index.css'
+import BackCompo from '../../components/BackCompo';
 
 
 export default class SignupPage extends Component {
@@ -21,13 +22,17 @@ export default class SignupPage extends Component {
 
               <div className="signup__show__info"> 
                 {/* هاد عشان ألم فيه اللإقتباس والفكتور  */}
-                
+
                 <Quote quoteColor />
                 <img src={SHAPE_1} alt="SHAPE_1" />
               </div>
-            </div>
-            
+            </div>            
           </div>
+          <div className="form__cont">
+            
+              <BackCompo />
+
+            </div>
       </div>
     )
   }
