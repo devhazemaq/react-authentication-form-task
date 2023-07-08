@@ -3,7 +3,8 @@
   width: 100%;
   position: relative;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
+  flex-direction: column;
 }
 
 /* Start of Part Sign Up Show */

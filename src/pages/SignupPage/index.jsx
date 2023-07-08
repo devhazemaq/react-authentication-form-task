@@ -3,6 +3,7 @@ import Quote from '../../components/Quote';
 import './index.css'
 import BackCompo from '../../components/BackCompo';
 import RegisterTitle from '../../components/RegisterTitle';
+import FormReg from '../../components/FormReg';
 
 
 export default class SignupPage extends Component {
@@ -33,7 +34,7 @@ export default class SignupPage extends Component {
             
               <BackCompo />
               <RegisterTitle />
-
+              <FormReg />
             </div>
       </div>
     )
