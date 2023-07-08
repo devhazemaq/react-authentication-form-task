@@ -1,0 +1,28 @@
+.registertitle__contain {
+  width: 418px;
+  background-color: aqua;
+  position: relative;
+}
+
+.registertitle__contain .regist__title {
+  color: var(--color1);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  
+}
+
+.registertitle__contain .regist__text {
+  color: var(--color2);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 8px 0 ;
+}
+
+.registertitle__contain .regist__title,
+.registertitle__contain .regist__text {
+  font-family: Inter;
+  font-style: normal;
+}
