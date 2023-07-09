@@ -1,0 +1,28 @@
+.signinpage__contain {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.signinpage__contain .signip__show {
+  width: 642px;
+  position: relative;
+}
+
+.show__cont__signin {
+  display: flex;
+  flex-direction: column;
+  /* height: 69%; */
+  position: relative;
+  width: 640px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px
+}
+
+.show__cont__signin .logo__1 {
+  width: 439px;
+  height: 103px;
+}
