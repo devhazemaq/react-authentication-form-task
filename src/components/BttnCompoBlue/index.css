@@ -1,0 +1,11 @@
+/* .bttncompoblue__contain {
+} */
+
+.bttncompoblue__contain button {
+  width: 426px;
+  height: 64px;
+  border: none;
+  border-radius: 6px;
+  color: var(--color4);
+  background: var(--color5);
+}

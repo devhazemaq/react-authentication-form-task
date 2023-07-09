@@ -1,5 +1,5 @@
 .quote__contain {
-  width: 473px;
+  width: 426px;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -19,9 +19,9 @@
   
 }
 
-.quote__color__blue {
+/* .quote__color__blue {
   color: var(--color6);
-} 
+}  */
 
 .quote__color__gray {
   color: var(--color2);
